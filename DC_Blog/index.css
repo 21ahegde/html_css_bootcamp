@@ -1,0 +1,41 @@
+#title {
+    text-align: center;
+}
+
+#body {
+    text-align: center;
+    margin-left: 175px;
+    margin-right: 175px;
+    font-size: 16px;
+    font: Arial; 
+}
+
+#date {
+    color: grey; 
+    font-size: 12px;
+}
+
+#logo{
+    margin-left: 115px; 
+    font-size: 40px;
+}
+
+#toptext {
+   text-align: right;
+}
+
+#bottomtext {
+    margin-right: 585px; 
+    color: grey;
+}
+
+#buttonbox {
+    background-color: blue;
+  border: none;
+  color: white;
+  padding: 5px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
