@@ -1,0 +1,62 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .menu {
+    float: right;
+    width: 895px;
+    height: 100px;
+    background-color: white;  
+    padding: 20px;   
+    color: grey; 
+  }
+  
+  .sidebar {                      /* I was unable to figure out how to create the floating effect that the original had */
+    float: left;
+    width: 200px;
+    height: 800px;
+    background-color: grey; 
+    text-align: left;
+    padding: 12px;
+    color: white;
+  }
+  
+  .content {                     /* for the main content I couldn't figure out how to format it to neat look the orginal had. I ended up affecting everything with a change */
+    height: 800px;
+    background-color: white; 
+    padding-left: 20px; 
+    padding-right: 20px;
+    text-align: left;    
+  }
+
+  .section {
+    text-align: left;
+    font: bold; 
+  }
+
+  .quote {                        /* for some reason I my quote box keeps shifting to left and will even hide inside the sidebar area. */
+      border: solid lightgrey; 
+      background-color: beige;
+      height: 150px; 
+      width: 1000px;
+      float: 0 auto;
+      font: 20px;
+  }
+  
+  .vertical-menu a {
+    background-color: grey;
+    color: white; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    width: 175px; 
+  }
+  
+  .vertical-menu a:hover {
+    background-color: black;
+  }
+  

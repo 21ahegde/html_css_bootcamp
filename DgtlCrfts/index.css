@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+.tophalf {
+    background-color: blue;
+    height: 476px;
+}
+
+.options ul {
+    float: right;
+    list-style-type: none;
+    top: 0;
+    bottom: 0;
+}
+
+.options li {
+    display: inline;
+}
+
+.firstpic {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.secondpic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    background-color: green;
+    height: 200px;
+}
+
+.bottomhalf {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font: 50px;
+}
